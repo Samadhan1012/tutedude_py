@@ -1,7 +1,7 @@
 # tutedude_py
-These are python assignment 1 from Testdude course
+These are python assignment 5 from Testdude course
 
 Task1.py:
-This program takes arguments a and b from user and performs addition, subtraction, multiplication and division. This then displays the output.
+This program takes student name from user and returns corresponding markes from a dictionary. If name is not present, returns, "Student not found."
 Task1.py:
-This program takes arguments fname as first name and lname as last name from user. Then displays greeting output having full name.
+This program prints list of numbers from 1 to 10, then extracts first five elements and pritns. Then it prints then in reverse order.
