@@ -1,12 +1,8 @@
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
+mar_dict = {'Samadhan':80,'Ramesh': 40,'Alice':85}
 
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b
+studentname = input("Enter the student's name: ")
 
-print(f"Addition: {addition}")
-print(f"Subtraction: {subtraction}")
-print(f"Multiplication: {multiplication}")
-print(f"Division: {division}")
+if studentname in mar_dict:
+    print(f"{studentname}'s marks: {mar_dict.get(studentname)}")
+else:
+    print(f"Student not found.")
