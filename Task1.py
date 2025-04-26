@@ -1,12 +1,9 @@
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n * (factorial(n-1))
 
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b
-
-print(f"Addition: {addition}")
-print(f"Subtraction: {subtraction}")
-print(f"Multiplication: {multiplication}")
-print(f"Division: {division}")
+a = int(input("Enter a number: "))
+result = factorial(a)
+print(f"Factorial of {a} is: {result}" )
