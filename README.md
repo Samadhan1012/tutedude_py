@@ -1,7 +1,7 @@
 # tutedude_py
-These are python assignment 1 from Testdude course
+These are python assignment 4 from Testdude course
 
 Task1.py:
-This program takes an integer number from user annd prints whether it's a even or odd number.
+This program opens and reads a file, prints its content and handles errors.
 Task1.py:
-This program prints sum of integers from 1 to 50 Using a for Loop.
+This program writes and appends data to a file.
